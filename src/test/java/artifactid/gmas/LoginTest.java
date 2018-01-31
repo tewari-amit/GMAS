@@ -24,6 +24,7 @@ public class LoginTest {
 		driver.findElement(By.xpath("//section/div/div/div/div/div[1]/div/form/p[2]/input")).sendKeys("test1");
 		//driver.findElement(By.xpath("//section/div/div/div/div/div[1]/div/form/button")).click();
 		driver.findElement(By.xpath("//section/div/div/div/div/div[1]/div/form/button")).sendKeys(Keys.ENTER);
+		driver.getTitle();
 	}
 	
 	@AfterTest
